@@ -1,0 +1,723 @@
+/*  */
+.banner_wrapper {
+    width: 100%;
+    height: 720px;
+    background: url('../../common/images/main/patient_banner.png') no-repeat;
+    background-position: center;
+    position: relative;
+
+    padding: 238px 0 0 0px;
+    margin-bottom: 150px;
+}
+
+.banner_wrapper span {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: #040435;
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+.banner_wrapper span::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #04043580;
+    top: 3px;
+    left: 0;
+    border-radius: 100%;
+}
+
+.banner_wrapper p {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 70px;
+    color: #040435;
+}
+
+
+
+/*  */
+.about_check {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 180px;
+}
+
+.about_check .title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+    margin-bottom: 30px;
+}
+
+.about_check .desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #2B2E33;
+    margin-bottom: 150px;
+}
+
+.main__ptext__box {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.main__ptext__box>p:not(:last-child) {
+    margin-bottom: 11px;
+}
+
+.about_check span {
+    display: block;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+    margin-bottom: 50px;
+}
+
+.about_check .check_card_wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.check_card_wrapper .check_card {
+    width: 304px;
+    height: 200px;
+    padding: 40px 20px;
+    border-radius: 20px;
+    background: #F7F8FA;
+    display: flex;
+    justify-content: center;
+}
+
+.check_card_wrapper .check_card:not(:last-child) {
+    margin-right: 24px;
+}
+
+.check_card p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 33px;
+    color: #2B2E33;
+}
+
+
+
+/*  */
+.check_step_wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 180px;
+    margin-bottom: 150px;
+}
+
+.check_step_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.check_step_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    color: #2B2E33;
+}
+
+.check_step_wrapper ul {}
+
+.main__ptext__box {
+    margin-bottom: 142px;
+}
+
+.check_step_wrapper ul li {
+    margin-bottom: 30px;
+}
+
+.check_step_wrapper ul li .check_step {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+
+.check_step img {
+    position: relative;
+    margin-right: 54px;
+}
+
+.check_step::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 30px;
+    background: #00298080;
+    bottom: -30px;
+    left: 56px;
+}
+
+.check_step_wrapper ul li:last-child .check_step::after {
+    display: none;
+}
+
+
+.check_step .step_desc_wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.step_desc_wrapper span {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2B2E33;
+}
+
+.step_desc_wrapper span:first-child {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2B2E33;
+    line-height: 25px;
+}
+
+
+
+/*  */
+.check_result_wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 180px;
+    margin-bottom: 150px;
+}
+
+.check_result_wrapper h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+    margin-bottom: 50px;
+}
+
+.check_result_wrapper ul {}
+
+.check_result_wrapper ul .result_item {
+    width: 960px;
+    height: 200px;
+    padding: 45px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result_item.positive {
+    background: #FF142D0D;
+}
+
+.result_item.inconclusive {
+    background: #828A990D;
+}
+
+.result_item.negative {
+    background: #0029800D;
+}
+
+.result_item>span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #2B2E33;
+    margin-bottom: 30px;
+}
+
+.result_item span.positive {
+    color: #FF142D;
+}
+
+.result_item span.inconclusive {
+    color: #828A99;
+}
+
+.result_item span.negative {
+    color: #002980;
+}
+
+.result_item p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2B2E33;
+}
+
+
+
+/*  */
+.questions_wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.questions_wrapper .title {
+    display: block;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+    margin-bottom: 50px;
+}
+
+.questions_wrapper ul {
+    width: 100%;
+    border-top: 1px solid #BEC2CC80;
+    margin-bottom: 50px;
+}
+
+.questions_wrapper ul li {
+    border-bottom: 1px solid #BEC2CC80;
+}
+
+.questions_wrapper ul li a {
+    /* height: 90px; */
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions_wrapper ul li a .question {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.question .iconQ {
+    display: block;
+    margin-right: 34px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2B2E334D;
+}
+
+.question .iconQ+span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #2B2E33;
+}
+
+.question+img {
+    padding-right: 10px;
+}
+
+.questions_wrapper>.more_question {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_question a {
+    width: 282px;
+    height: 60px;
+    border-radius: 40px;
+    background: #040435;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*  */
+.blog_wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.blog_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.blog_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+}
+
+.blog_wrapper .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.blog_wrapper .swiper-slide {
+    width: 100%;
+    /* text-align: center; */
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border-radius: 30px;
+
+}
+
+.swiper-slide .blog_card {
+    width: 303px;
+    height: 390px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #F0F0F0;
+    border-radius: 20px;
+}
+
+.blog_card .blog_desc {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.blog_desc p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+}
+
+.blog_desc span {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #6C7380;
+}
+
+
+.m_check_step {
+    display: none;
+}
+
+
+.link__icon__bg img {
+    transform: rotate(45deg);
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .banner_wrapper {
+        background: url('../../common/images/main/m_patient_banner.png') no-repeat;
+        background-size: 100%;
+        margin-bottom: 60px;
+        padding: 60px 0 0 20px;
+        height: 670px;
+        background-size: cover;
+    }
+
+    .banner_wrapper span {
+        display: none;
+    }
+
+    .banner_wrapper p {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /*  */
+    .about_check {
+        padding: 0 20px;
+        margin-bottom: 47px;
+    }
+
+    .about_check .title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    .about_check .desc {
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 60px;
+    }
+
+    .about_check span {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    .about_check .check_card_wrapper {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .check_card_wrapper .check_card {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding: 23px 20px;
+        height: initial;
+        justify-content: left;
+    }
+
+    .check_card p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .check_card p br {
+        display: none;
+    }
+
+    .check_card_wrapper .check_card:not(:last-child) {
+        margin-right: 0;
+    }
+
+
+
+    /*  */
+    .check_step_wrapper {
+        padding-left: 0px;
+        width: 90%;
+        margin-bottom: 57px;
+    }
+
+    .check_step img {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+        z-index: 1;
+    }
+
+    /*  */
+    .m_check_step {
+        padding: 60px 20px;
+        margin-bottom: 60px;
+        background: #F1F5FE;
+    }
+
+    .step_desc_wrapper span:last-child {
+        line-height: 27px;
+    }
+
+    .m_check_step .title {
+        margin-bottom: 60px;
+    }
+
+    .m_check_step .title span {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+    }
+
+    .m_step_list {}
+
+    .m_step_list ul {}
+
+    .m_step_list ul li {
+        text-align: center;
+    }
+
+    .m_step_list ul li span {
+        display: block;
+        font-size: 22px;
+        font-weight: 600;
+        color: #2B2E33;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .m_step_list ul li p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #2B2E33;
+        margin-bottom: 60px;
+        text-align: left;
+    }
+
+
+
+    /*  */
+    .check_result_wrapper {
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .check_result_wrapper h1 {
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+    .check_result_wrapper ul .result_item {
+        width: 100%;
+        height: initial;
+        padding: 42px 30px;
+    }
+
+    .result_item>span {
+        font-size: 22px;
+        margin-bottom: 27px;
+    }
+
+    .result_item p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .check_step_wrapper .title span {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 800;
+    }
+
+    .check_step_wrapper .title{
+        margin-bottom: 30px;
+    }
+
+
+    /*  */
+    .blog_wrapper {
+        padding: 0 20px;
+        margin-bottom: 60px;
+        overflow: hidden;
+    }
+
+    .blog_wrapper .title span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .blog_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .main__ptext__box {
+        margin-bottom: 57px;
+    }
+
+    .main__ptext__box {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .main__ptext__box>p:not(:last-child) {
+        margin-bottom: 13px;
+    }
+
+
+
+    /*  */
+    .questions_wrapper {
+        padding: 0 20px;
+        margin-bottom: 57px;
+    }
+
+    .questions_wrapper .title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    .questions_wrapper ul {
+        margin-bottom: 30px;
+    }
+
+    .check_step::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 120px;
+        background: #00298080;
+        bottom: -54px;
+        left: 35px;
+        z-index: 0;
+    }
+
+    .questions_wrapper ul li{
+        padding: 0;
+    }
+
+    .questions_wrapper ul li a {
+        height: auto;
+        align-items: center;
+    }
+
+    .link__icon__bg{
+        align-items: flex-start !important;
+    }
+
+    .question .iconQ {
+        display: none;
+    }
+
+    .question .iconQ+span {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+
+
+    .questions_wrapper ul li:last-child a {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .more_question a {
+        width: 222px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+
+    .step_desc_wrapper span {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        color: #2B2E33;
+    }
+
+    .service_button a {
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+}

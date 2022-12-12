@@ -1,0 +1,453 @@
+/*  */
+.medical_banner {
+    width: 100%;
+    height: 720px;
+    background: url('../../common/images/main/medical_banner.png') no-repeat;
+    background-position: center;
+    position: relative;
+
+    padding: 238px 0 0 0px;
+    margin-bottom: 150px;
+}
+
+.medical_banner span {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: #040435;
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+.medical_banner span::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #04043580;
+    top: 3px;
+    left: 0;
+    border-radius: 100%;
+}
+
+.medical_banner p {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 70px;
+    color: #040435;
+    margin-bottom: 60px;
+}
+
+.medical_banner a {
+    width: 208px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 40px;
+    background: #040435;
+}
+
+
+
+/*  */
+.gene_check_wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 180px;
+    margin-bottom: 150px;
+}
+
+.gene_check_wrapper > p {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+    margin-bottom: 80px;
+}
+
+.gene_check_wrapper > span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2B2E33;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.gene_check_wrapper .about_gene_check {
+
+}
+
+.about_gene_check ul {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.about_gene_check ul li {
+    width: 304px;
+    min-height: 260px;
+    background: #F7F8FA;
+    margin: 0 24px 24px 0;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.about_gene_check ul li .gene_icon {
+    margin-bottom: 30px;
+}
+
+.gene_icon img {
+    margin-right: 10px;
+}
+
+.gene_icon img:last-child {
+    display: none;
+}
+
+.about_gene_check ul li p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 33px;
+    color: #2B2E33;
+}
+
+
+/*  */
+.about_skill_wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.about_skill_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.about_skill_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+}
+
+.about_skill_wrapper .skill_list_wrapper {
+
+}
+
+.skill_list_wrapper ul {
+    border-top: 1px solid #BEC2CC80;
+}
+
+.skill_list_wrapper ul .skill_list {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    border-bottom: 1px solid #BEC2CC80;
+}
+
+.skill_list a {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill_list a .skill_title {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.skill_title span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2B2E33;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.skill_title span.skill_date {
+    font-size: 12px;
+    font-weight: 300;
+    color: #6C7380;
+    margin: 0;
+}
+
+.skill_list a img {
+    
+}
+
+
+
+/*  */
+.service_3billion {
+    height: 400px;
+    background: #040435;
+}
+
+.service_3billion .service_wrapper {
+    max-width: 1320px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.service_wrapper .service_title {
+
+}
+
+.service_title p {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+.service_button {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.service_button a {
+    display: block;
+    width: 224px;
+    height: 60px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #040435;
+}
+
+.service_button a.reverse {
+    color: #ffffff;
+    background: #040435;
+    border: 2px solid #ffffff;
+}
+
+.service_button a:first-child {
+    margin-right: 10px;
+} 
+
+
+
+@media (max-width: 480px) {
+
+    .medical_banner {
+        background: url('../../common/images/main/m_medical_banner.png') no-repeat;
+        background-size: 100%;
+        margin-bottom: 60px;
+        padding: 60px 0 0 20px;
+        height: 670px;
+        background-size: cover;
+    }
+
+    .medical_banner span {
+        display: none;
+    }
+
+    .medical_banner p {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .medical_banner a {
+        width: 162px;
+        height: 48px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+
+    /*  */
+    .gene_check_wrapper {
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .gene_check_wrapper > p {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 57px;
+    }
+
+    .gene_check_wrapper > span {
+        font-size: 22px;
+    }
+
+    .about_gene_check ul {
+        flex-wrap: wrap;
+    }
+
+    .about_gene_check ul li {
+        margin-right: 10px;
+        width: 48%;
+        padding: 30px 0;
+        margin-bottom: 10px;
+    }
+
+    .about_gene_check ul li:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .about_gene_check ul li .gene_icon {
+        height: 80px;
+        text-align: center;
+    }
+
+    .about_gene_check ul li p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .about_gene_check ul li p br { 
+        display: none;
+    }
+
+
+    li:nth-child(1) .gene_icon img:first-child {
+        content: url('../../common/images/main/m_medical_icon1.png');
+    }
+    li:nth-child(1) .gene_icon img:last-child {
+        display: none;
+    }
+
+
+    li:nth-child(2) .gene_icon img:first-child {
+        content: url('../../common/images/main/m_medical_icon2.png');
+    }
+    li:nth-child(2) .gene_icon img:last-child {
+        display: none;
+    }
+
+
+    li:nth-child(3) .gene_icon img:first-child {
+        content: url('../../common/images/main/m_medical_icon3.png');
+    }
+    li:nth-child(3) .gene_icon img:last-child {
+        display: none;
+    }
+
+
+    li:nth-child(4) .gene_icon img:first-child {
+        content: url('../../common/images/main/m_medical_icon4.png');
+    }
+    li:nth-child(4) .gene_icon img:last-child {
+        display: none;
+    }
+
+
+    li:nth-child(5) .gene_icon img:first-child {
+        content: url('../../common/images/main/m_medical_icon5.png');
+    }
+    li:nth-child(5) .gene_icon img:last-child {
+        display: none;
+    }
+
+
+    li:nth-child(6) .gene_icon img:first-child {
+        content: url('../../common/images/main/m_medical_icon6.png');
+    }
+    li:nth-child(6) .gene_icon img:last-child {
+        display: none;
+    }
+
+
+
+    /*  */
+    .about_skill_wrapper {
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .about_skill_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .about_skill_wrapper .title span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .skill_list_wrapper ul .skill_list {
+    }
+
+    .skill_list a {
+        align-items: flex-start;
+    }
+
+    
+
+    .skill_title span {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+        margin-right: 50px;
+    }
+
+    .skill_title span br {
+        display: none;
+    }
+
+    .skill_list a img {
+        
+    }
+
+
+    
+     /*  */
+     .service_3billion {
+        padding: 60px 0;
+        height: initial;
+    }
+
+    .service_3billion .service_wrapper {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .service_wrapper .service_title {
+        margin-bottom: 40px;
+    }
+
+    .service_title p {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+
+    .service_button a {
+        width: 175px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .service_button a {
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+}

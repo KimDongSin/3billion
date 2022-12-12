@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="410" viewBox="0 0 960 410">
+  <g id="그룹_173452" data-name="그룹 173452" transform="translate(-360 -1605)">
+    <g id="사각형_161368" data-name="사각형 161368" transform="translate(360 1605)" fill="#fff" stroke="#e4e6eb" stroke-width="1">
+      <rect width="960" height="410" rx="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="959" height="409" rx="19.5" fill="none"/>
+    </g>
+    <text id="변이_병원성_해석_소요_시간_분_" data-name="변이 병원성 해석 소요 시간 (분)" transform="translate(414.334 1889.5) rotate(-90)" fill="#6c7380" font-size="12" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="0">변이</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">병원성</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">해석</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">소요</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">시간</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUI, Segoe UI"> (</tspan><tspan y="0">분</tspan><tspan y="0" font-family="SegoeUI, Segoe UI">)</tspan></text>
+    <text id="_75" data-name="75" transform="translate(887.834 1962)" fill="#6c7380" font-size="12" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-6.085" y="0">75</tspan></text>
+    <path id="사각형_161372" data-name="사각형 161372" d="M5.5,0h29A5.5,5.5,0,0,1,40,5.5v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A5.5,5.5,0,0,1,5.5,0Z" transform="translate(443.833 1800.5) rotate(90)" fill="#ff142d"/>
+    <path id="사각형_161373" data-name="사각형 161373" d="M20,0h0A20,20,0,0,1,40,20V728.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(1166.791 1840.5) rotate(90)" fill="#0d57a2"/>
+    <text id="_1분" data-name="1분" transform="translate(465.834 1824)" fill="#ff142d" font-size="13" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-10.239" y="0">1</tspan><tspan y="0" font-family="MalgunGothicBold, Malgun Gothic" font-weight="400">분</tspan></text>
+    <text id="_120분" data-name="120분" transform="translate(1194.791 1864)" fill="#0d57a2" font-size="13" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-17.716" y="0">120</tspan><tspan y="0" font-family="MalgunGothicBold, Malgun Gothic" font-weight="400">분</tspan></text>
+    <text id="_100" data-name="100" transform="translate(1037.834 1962)" fill="#6c7380" font-size="12" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-8.32" y="0">100</tspan></text>
+    <text id="_125" data-name="125" transform="translate(1187.834 1962)" fill="#6c7380" font-size="12" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-8.32" y="0">125</tspan></text>
+    <text id="_25" data-name="25" transform="translate(587.834 1962)" fill="#6c7380" font-size="12" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-6.182" y="0">25</tspan></text>
+    <text id="_0" data-name="0" transform="translate(437.834 1962)" fill="#6c7380" font-size="12" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-3.091" y="0">0</tspan></text>
+    <text id="_50" data-name="50" transform="translate(737.834 1962)" fill="#6c7380" font-size="12" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-6.182" y="0">50</tspan></text>
+    <g id="그룹_3705" data-name="그룹 3705" transform="translate(-17.666 -2008.5)">
+      <text id="EVIDENCE_Manual_curation" data-name="EVIDENCE
+Manual curation" transform="translate(484 3724.5)" fill="#6c7380" font-size="12" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">EVIDENCE</tspan><tspan x="0" y="20">Manual curation</tspan></text>
+      <circle id="타원_221" data-name="타원 221" cx="6" cy="6" r="6" transform="translate(466 3714)" fill="#ff142d"/>
+      <circle id="타원_222" data-name="타원 222" cx="6" cy="6" r="6" transform="translate(466 3734)" fill="#0d57a2"/>
+    </g>
+    <line id="선_719" data-name="선 719" y1="226" transform="translate(587.834 1705)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="선_724" data-name="선 724" y1="226" transform="translate(437.834 1705)" fill="none" stroke="#8c8c8c" stroke-width="1"/>
+    <line id="선_720" data-name="선 720" y1="226" transform="translate(737.834 1705)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="선_721" data-name="선 721" y1="226" transform="translate(887.834 1705)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="선_722" data-name="선 722" y1="226" transform="translate(1037.834 1705)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="선_723" data-name="선 723" y1="226" transform="translate(1187.834 1705)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <path id="패스_40756" data-name="패스 40756" d="M-11129.5,4622.5h838.833" transform="translate(11567.334 -2691.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="변이_병원성_해석_소요_시간_비교" data-name="변이 병원성 해석 소요 시간 비교" transform="translate(729 1672)" fill="#2b2e33" font-size="18" font-family="MalgunGothicBold, Malgun Gothic"><tspan x="0" y="0">변이</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> </tspan><tspan y="0">병원성</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> </tspan><tspan y="0">해석</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> </tspan><tspan y="0">소요</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> </tspan><tspan y="0">시간</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> </tspan><tspan y="0">비교</tspan></text>
+  </g>
+</svg>

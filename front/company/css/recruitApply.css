@@ -1,0 +1,401 @@
+footer {
+    border-top: none !important;
+}
+
+.ir_title_wrapper {
+    max-width: 1320px;
+    padding: 70px 0 ;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ir_title_wrapper .title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ir_title_wrapper .title span {
+    display: block;
+    font-size: 50px;
+    font-weight: 800;
+    color: #040435;
+    margin-right: 90px;
+}
+
+.ir_title_wrapper .title p {
+    font-size: 28px;
+    font-weight: 500;
+    color: #040435;
+}
+
+.ir_title_wrapper .side_menu_wrapper {
+
+}
+
+.side_menu_wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_menu_wrapper ul li {
+    margin-right: 30px;
+}
+
+.side_menu_wrapper ul li:last-child {
+    margin-right: 0;
+}
+
+.side_menu_wrapper ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8F8F8F;
+}
+
+.side_menu_wrapper ul li a.active{
+    color: #040035;
+}
+
+.ir_title_wrapper img {
+    display: none;
+}
+
+
+
+/*  */
+.recruit_info_wrapper {
+    max-width: 1320px;
+    padding: 60px 0 0 ;
+    margin: 0 auto;
+    border-top: 1px solid #040035;
+}
+
+.recruit_info_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.recruit_info_wrapper .title span {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #2B2E33;
+}
+
+.recruit_btn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.recruit_btn a {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    background: #EDF0F3;
+    color: #040435;
+}
+
+.recruit_btn a:last-child {
+    color: #FFFFFF;
+    background: #040435;
+}
+
+
+
+/*  */
+.recruit_apply_wrapper {
+    background: #F0F2F5;
+}
+.recruit_apply_wrapper .apply_bg {
+    max-width: 1320px;
+    padding: 80px 0 ;
+    margin: 0 auto;
+}
+
+.recruit_apply_wrapper .title {
+    margin-bottom: 30px;   
+}
+
+.recruit_apply_wrapper .title span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #2B2E33;
+}
+
+.recruit_apply_wrapper .apply_form_wrapper {
+    margin-bottom: 100px;
+}
+
+.apply_form_wrapper .input_list {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-right: 24px;
+}
+
+.apply_form_wrapper .input_list:last-child {
+    margin-right: 0;
+}
+
+.input_list span {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #2B2E33;
+}
+
+.input_list input {
+    width: 100%;
+    border: none;
+    background: #F0F2F5;
+    border-bottom: 1px solid #2B2E3380;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.input_list input[type="file"] {
+    margin-top: 35px;
+}
+
+.apply_form_wrapper .input_wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.input_list select {
+    width: 100%;
+    border: none;
+    background: #F0F2F5;
+    border-bottom: 1px solid #2B2E3380;
+    font-size: 16px;
+    padding: 10px 0;
+}   
+
+.input_wrapper.last_wrapper .input_list {
+    margin-bottom: 20px;
+}
+
+.apply_form_wrapper .form_about {
+
+}
+
+.form_about p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2B2E3380;
+}
+
+.recruit_apply_wrapper .agree_wrapper {
+
+}
+
+.agree_wrapper .agree_list {
+    margin-bottom: 53px;
+}
+
+.agree_list .agree_input {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.agree_input input {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+}
+
+.agree_input label {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #2B2E33;
+}
+
+.agree_list .agree_desc {
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.agree_desc p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2B2E33;
+}
+
+.agree_wrapper .apply_form_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apply_form_btn a {
+    width: 148px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #040435;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+
+/*  */
+@media (max-width: 480px) {
+
+    /*  */
+    .ir_title_wrapper {
+        margin: 0;
+        padding: 20px;
+        background: #EDF0F3;
+        margin-bottom: 60px;
+    }
+
+    .ir_title_wrapper .title {
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .ir_title_wrapper .title span {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .ir_title_wrapper .title p {
+        display: none;
+    }
+
+    .ir_title_wrapper .side_menu_wrapper {
+        display: none;
+    }
+
+    .ir_title_wrapper img {
+        display: block;
+        cursor: pointer;
+    }
+
+
+
+    /*  */
+    .recruit_info_wrapper {
+        padding: 0 20px;
+        border: none;
+    }
+
+    .recruit_info_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .recruit_info_wrapper .title span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .recruit_btn {
+        margin-bottom: 60px;
+    }
+
+    .recruit_info_wrapper .recrut_info {
+        flex-direction: column-reverse;
+    }
+
+
+
+    /*  */
+    .recruit_apply_wrapper .apply_bg {
+        padding: 60px 20px;
+    }
+
+    .recruit_apply_wrapper .title span {
+        font-size: 16px;
+    }
+
+    .input_list span {
+        font-size: 15px;
+    }
+
+    .apply_form_wrapper .input_wrapper {
+        flex-direction: column;
+    }
+
+    .apply_form_wrapper .input_list {
+        margin-right: 0;
+    }
+
+    .agree_input label {
+        font-size: 16px;
+    }
+
+    .agree_list .agree_desc {
+        height: 400px;
+        overflow-y: scroll;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

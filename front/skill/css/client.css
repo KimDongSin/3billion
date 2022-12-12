@@ -1,0 +1,206 @@
+* {
+    font-family: 'Pretendard';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.main__bg {
+    background-color: #ffffff;
+    height: 280px;
+}
+
+.tool__card{
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+}
+
+.main__bg__gle{
+    align-items: center;
+}
+
+.main__bg__gle>h1{
+    margin-right: 47px;
+}
+
+.btn__box{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.menu__wrap__box{
+    display: none;
+}
+
+.questions__wrap__box{
+    margin: 0 auto 100px;
+}
+
+.menu__qa__wrap{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu__qa__top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.menu__qa__top > span{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.qa__top__link{
+    display: flex;
+    align-items: center;
+}
+
+.qa__top__link > span{
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #002980;
+}
+
+.qa__bottom__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #F0F2F5;
+    border-radius: 30px;
+    width: 304px;
+    height: 140px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.qa__bottom__card > span{
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.menu__qa__bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer{
+    border-top: none !important;
+}
+
+.inquiry__wrap{
+    margin-top: 126px;
+}
+
+.questions__wrap__box > li:last-child{
+    border-bottom: 1px solid rgb(190, 194, 204, 0.5);
+}
+
+@media (max-width: 480px) {
+    .menu__qa__bottom > a{
+        width: 48%;
+    }
+    
+    .main__bg{
+        height: auto;
+    }
+
+    .client__wrap{
+        margin-top: 0;
+    }
+
+    .menu__qa__top > span{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .qa__top__link > span{
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .qa__top__link > img{
+        content: url('../../common/images/skill/qa__box__arrow.png');
+    }
+    
+    .menu__qa__top{
+        flex-direction: column;
+    }
+
+    .menu__qa__wrap{
+        width: 90%;
+    }
+
+    .questions__wrap__box{
+        margin: 0 auto 60px;
+    }
+
+    .btn__type1{
+        margin-top: 30px;
+    }
+ 
+
+    .inquiry__wrap__box{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .inquiry__input__wrap{
+        width: 100%;
+    }
+
+    .inquiry__wrap{
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .main__wrapper{
+        border-bottom: none;
+    }
+    
+    .main__bg__gle{
+        align-items: flex-start;
+        margin-bottom: 60px;
+    }
+
+    .client__menu__wrap > p{
+        margin: 56px 0 34px;
+
+    }
+
+    .qa__bottom__card{
+        width: 100%;
+        height: 189px;
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding: 20px 10px;
+    }
+
+    .qa__bottom__card > span{
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: bold;
+    }
+}

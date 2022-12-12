@@ -1,0 +1,136 @@
+* {
+    font-family: 'Pretendard';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+
+.main__bg {
+    background-color: #ffffff;
+    height: 280px;
+}
+
+.tool__card{
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+}
+
+.main__bg__gle{
+    align-items: center;
+}
+
+.main__bg__gle>h1{
+    margin-right: 47px;
+}
+
+.btn__box{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 150px;
+}
+
+.paging__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 104px 0 150px;
+}
+
+.paging__number__wrap{
+    width: 257px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paging__number__wrap > button{
+    color: #AFAFAF;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.paging__number__wrap .paging__select{
+    color: #040435;
+}
+
+.paging__wrap button{
+    border: none;
+    background-color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .page__left{
+        content: url('../../common/images/skill/m_paging__left__arrow.png');
+    }
+
+    .page__right{
+        content: url('../../common/images/skill/m_paging__right__arrow.png');
+    }
+    
+    .paging__wrap{
+        margin: 60px 0 60px;
+    }
+
+    .btn__box{
+        margin: 30px 0 60px;
+    }
+
+    .btn__type1{
+        margin-top: 30px;
+    }
+ 
+
+    .inquiry__wrap__box{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .inquiry__input__wrap{
+        width: 100%;
+    }
+
+    .inquiry__wrap{
+        height: 100%;
+        margin-top: 60px;
+    }
+
+    .main__wrapper{
+        /* border-bottom: none; */
+    }
+    
+    .main__bg__gle{
+        align-items: flex-start;
+        margin-bottom: 60px;
+    }
+
+    .client__menu__wrap > p{
+        margin-top: 60px;
+    }
+
+    .main__bg{
+        height: auto;
+    }
+
+    .client__wrap{
+        margin-top: 0;
+    }
+
+    .questions__wrap__box{
+        margin: 30px auto 0;
+    }
+
+    .questions__wrap__box > li a{
+        height: 100% !important;
+    }
+}

@@ -1,0 +1,727 @@
+/*  */
+footer {
+    border-top: 0 !important;
+}
+
+.banner_wrapper {
+    width: 100%;
+    height: 720px;
+    background: url('../../common/images/main/research_banner.png') no-repeat;
+    background-position: center;
+    position: relative;
+
+    padding: 238px 0 0 0px;
+    margin-bottom: 150px;
+}
+
+.banner_wrapper span {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: #040435;
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+.banner_wrapper span::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #7a7b95;
+    top: 3px;
+    left: 0;
+    border-radius: 100%;
+}
+
+.banner_wrapper span.banner_bar {
+    display: inline;
+    padding: 0 10px;
+    margin: 0;
+    color: #AEB7C4;
+}
+
+.banner_wrapper span.banner_bar::before{
+    display: none;
+}
+
+.banner_wrapper p {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 70px;
+    color: #040435;
+    margin-bottom: 30px;
+}
+
+.banner_wrapper a {
+    width: 208px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 40px;
+    background: #040435;
+}
+
+
+
+/*  */
+.research_process_wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}    
+
+.research_process_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.research_process_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    color: #2B2E33;
+}
+.research_process {
+
+}
+
+.research_process ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.research_process ul li {
+    position: relative;
+    text-align: center;
+}
+
+.research_process ul li::after{
+    position: absolute;
+    content: '';
+    width: 225px;
+    height: 2px;
+    right: -145px;
+    background: #FF142D80;
+    top: 40px;
+}
+
+.research_process ul li:last-child:after{
+    display: none;
+}
+
+.research_process ul li img {
+    margin-bottom: 30px;
+}
+
+.research_process ul li p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.research_process ul li span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #868686;
+}
+
+
+
+/*  */
+.about_skill_wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.about_skill_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.about_skill_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+}
+
+.about_skill_wrapper .skill_list_wrapper {
+
+}
+
+.skill_list_wrapper ul {
+    border-top: 1px solid #BEC2CC80;
+}
+
+.skill_list_wrapper ul .skill_list {
+    width: 100%;
+    height: 153px;
+    border-bottom: 1px solid #BEC2CC80;
+}
+
+.skill_list a {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill_list a .skill_title {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.skill_title span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2B2E33;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.skill_title span.skill_date {
+    font-size: 12px;
+    font-weight: 300;
+    color: #6C7380;
+    margin: 0;
+}
+
+.skill_list a img {
+    
+}
+
+
+
+
+/*  */
+.participate_wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    overflow: hidden;
+}
+
+.participate_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.participate_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+}
+
+
+
+
+
+
+.identify_swiper .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.identify_swiper .swiper-slide {
+    width: 100%;
+    /* text-align: center; */
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border-radius: 30px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+
+.participate_card {
+    width: 468px;
+    min-height: 354px;
+    border: 1px solid #E4E6EB;
+    border-radius: 20px;
+    padding: 40px;
+    flex-shrink: 0;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.participate_card img {
+    margin-bottom: 50px;
+}
+
+.participate_card p {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #2B2E33;
+    margin-bottom: 30px;
+}
+
+.participate_card a {
+    width: 126px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #040435;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+
+/*  */
+.research_icon_wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 180px;
+    margin-bottom: 150px;
+}
+
+.research_icon_wrapper .title {
+    margin-bottom: 50px;
+    width: 885px;
+}
+
+.research_icon_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+}
+
+.research_icon_wrapper .icon_wrapper {
+
+}
+
+.icon_wrapper ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.icon_wrapper ul li {
+	width: 110px;
+	height: 110px;
+	border-radius:15px;
+	background-color: #F0F2F5;
+    margin-right: 11px;
+    margin-bottom: 10px;
+}
+
+.icon_wrapper ul li img {
+	display: block;
+	width: 70%;
+	margin: 16.5px auto;
+}
+
+
+
+
+
+
+
+/*  */
+.inquire_wrapper {
+    height: 785px;
+    background: #E5EEFF;
+}
+
+.inquire_wrapper .inquire_bg {
+    padding-top: 150px;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.inquire_bg .title {
+    margin-right: 157px;
+    flex-shrink: 0;
+}
+
+.inquire_bg .title span {
+    display: block;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 66px;
+    color: #2B2E33;
+    margin-bottom: 30px;
+}
+
+.inquire_bg .title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2B2E33;
+}
+
+.inquire_form_wrapper {
+    width: 100%;
+}
+
+.inquire_form_wrapper .input_wrapper {
+    height: 66px;
+    border-bottom: 1px solid #2B2E3380;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.input_wrapper label {
+    width: auto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #2B2E33;
+    flex-shrink: 0;
+}
+
+.input_wrapper input {
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: #2B2E33;
+    height: 66px;
+}
+
+.inquire_form_wrapper .input_wrapper.textarea_wrapper {
+    height: 146px;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.textarea_wrapper textarea {
+    width: 100%;
+    height: 120px;
+    border: none;
+    background: none;
+    padding: 10px;
+}
+
+.input_wrapper.textarea_wrapper label {
+    padding-top: 30px;
+}
+
+.inquire_form_wrapper .inquire_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inquire_btn button {
+    cursor: pointer;
+    width: 220px;
+    height: 60px;
+    background: #040435;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+
+
+
+
+/*  */
+@media (max-width: 480px) {
+
+    .banner_wrapper {
+        background: url('../../common/images/main/m_research_banner.png') no-repeat;
+        background-size: 100%;
+        margin-bottom: 60px;
+        padding: 60px 0 0 20px;
+        height: 670px;
+        background-size: cover;
+    }
+
+    .banner_wrapper span {
+        display: none;
+    }
+
+    .banner_wrapper p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
+    .banner_wrapper a {
+        width: 268px;
+        height: 48px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+
+    /*  */
+    .research_process_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .research_process_wrapper .title span {
+        font-size: 24px;
+
+    }
+
+    .research_process_wrapper {
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .research_process ul {
+        flex-direction: column;
+    }
+    
+    .research_process ul li {
+        text-align: initial;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .research_process ul li:first-child {
+        margin-bottom: 100px;
+    }
+
+    .research_process ul li:first-child::after {
+        height: 130px;
+    }
+
+    .research_process ul li::after {
+        height: 40px;
+        width: 2px;
+        left: 25px;
+        bottom: 0;
+    }
+
+    .research_process ul li img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .research_process ul li p {
+        margin-bottom: 0;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .research_process ul li p br {
+        display: none;
+    }
+
+    .research_process ul li span {
+        position: absolute;
+        bottom: -50px;
+        left: 70px;
+    }
+
+    .research_process ul li span br {
+        display: none;
+    }
+
+
+
+    /*  */
+    .about_skill_wrapper {
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .about_skill_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .about_skill_wrapper .title span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .skill_list_wrapper ul .skill_list {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .skill_list a {
+        position: relative;
+        align-items: flex-start;
+    }
+
+    .skill_title span {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+        margin-right: 50px;
+    }
+
+    .skill_title span br {
+        display: none;
+    }
+
+    .skill_list a img {
+    }
+
+    .link__icon__bg{
+        align-items: flex-start;
+        min-height: 25px;
+        max-height: 25px;
+    }
+
+
+    /*  */
+    .identify_swiper_wrapper {
+        padding: 0 20px;
+        margin-bottom: 70px;
+        overflow: hidden;
+    }
+
+    .identify_swiper_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .identify_swiper_wrapper .title span {
+        padding: 0;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+    }
+
+    .participate_card {
+        padding: 30px;
+        width: 350px;
+    }
+
+    .participate_card img {
+        margin-bottom: 30px;
+    }
+
+    .participate_card p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+
+
+    /*  */
+    .research_icon_wrapper {
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .research_icon_wrapper .title {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .research_icon_wrapper .title span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .icon_wrapper ul li {
+        width: 32%;
+		margin-right: 2%;
+    }
+
+    .icon_wrapper ul li:nth-child(3n) {
+        margin-right: 0;
+    }
+
+
+
+
+
+    /*  */
+    .inquire_wrapper {
+        height: initial;
+    }
+
+    .inquire_wrapper .inquire_bg {
+        padding: 60px 20px;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .inquire_bg .title {
+        margin: 0;
+    }
+
+    .inquire_bg .title span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .inquire_bg .title span br {
+        display: none;
+    }
+
+    .inquire_bg .title p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .inquire_form_wrapper {
+        width: 100%;
+    }
+
+    .input_wrapper.textarea_wrapper label {
+        flex-shrink: 0;
+    }
+
+    .input_wrapper input {
+        width: 100%;
+    }
+
+    .textarea_wrapper textarea {
+        width: 100%;
+    }
+
+    .inquire_btn button {
+        width: 172px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .service_button a {
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+}

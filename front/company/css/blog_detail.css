@@ -1,0 +1,10 @@
+.main__wrap__hr{
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 100px 0 150px;
+}
+
+.main__wrap__hr > .font__h1{
+    margin-bottom: 20px;
+}
+

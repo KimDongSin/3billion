@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368.698" height="324.519" viewBox="0 0 368.698 324.519">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_161195" data-name="사각형 161195" width="282.909" height="324.519" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="사각형_161189" data-name="사각형 161189" width="168.128" height="168.128" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="사각형_161190" data-name="사각형 161190" width="137.061" height="137.061" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="사각형_161191" data-name="사각형 161191" width="73.621" height="107.692" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="사각형_161192" data-name="사각형 161192" width="111.735" height="111.735" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect id="사각형_161193" data-name="사각형 161193" width="5.794" height="5.795" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_3636" data-name="그룹 3636" transform="translate(-382 -1949.24)">
+    <g id="그룹_3635" data-name="그룹 3635" transform="translate(467.789 1949.24)">
+      <g id="그룹_3634" data-name="그룹 3634" clip-path="url(#clip-path)">
+        <g id="그룹_3633" data-name="그룹 3633">
+          <g id="그룹_3632" data-name="그룹 3632" clip-path="url(#clip-path)">
+            <g id="그룹_3619" data-name="그룹 3619" transform="translate(69.617 155.435)" opacity="0.1">
+              <g id="그룹_3618" data-name="그룹 3618">
+                <g id="그룹_3617" data-name="그룹 3617" clip-path="url(#clip-path-3)">
+                  <path id="패스_39602" data-name="패스 39602" d="M207.633,172.269A84.064,84.064,0,1,1,123.569,88.2a84.065,84.065,0,0,1,84.065,84.065" transform="translate(-39.505 -88.204)" fill="#040435"/>
+                </g>
+              </g>
+            </g>
+            <g id="그룹_3622" data-name="그룹 3622" transform="translate(85.15 170.968)" opacity="0.3">
+              <g id="그룹_3621" data-name="그룹 3621">
+                <g id="그룹_3620" data-name="그룹 3620" clip-path="url(#clip-path-4)">
+                  <path id="패스_39603" data-name="패스 39603" d="M185.381,165.55a68.531,68.531,0,1,1-68.531-68.531,68.53,68.53,0,0,1,68.531,68.531" transform="translate(-48.32 -97.019)" fill="#040435"/>
+                </g>
+              </g>
+            </g>
+            <path id="패스_39604" data-name="패스 39604" d="M50.687,111.155h0A36.81,36.81,0,0,1,13.876,74.344V40.275a36.811,36.811,0,1,1,73.622,0V74.344a36.81,36.81,0,0,1-36.811,36.811" transform="translate(10.576 2.64)" fill="#ff142d"/>
+            <g id="그룹_3625" data-name="그룹 3625" transform="translate(116.87 6.103)" style="isolation: isolate">
+              <g id="그룹_3624" data-name="그룹 3624">
+                <g id="그룹_3623" data-name="그룹 3623" clip-path="url(#clip-path-5)">
+                  <path id="패스_39605" data-name="패스 39605" d="M103.131,111.155h0A36.81,36.81,0,0,1,66.32,74.344V40.275a36.811,36.811,0,1,1,73.622,0V74.344a36.81,36.81,0,0,1-36.811,36.811" transform="translate(-66.32 -3.462)" fill="#4285f4"/>
+                </g>
+              </g>
+            </g>
+            <path id="패스_39606" data-name="패스 39606" d="M155.576,111.155h0a36.81,36.81,0,0,1-36.811-36.811V40.275a36.81,36.81,0,1,1,73.62,0V74.344a36.81,36.81,0,0,1-36.809,36.811" transform="translate(90.524 2.64)" fill="#41b871"/>
+            <g id="그룹_3628" data-name="그룹 3628" transform="translate(97.814 183.631)" style="isolation: isolate">
+              <g id="그룹_3627" data-name="그룹 3627">
+                <g id="그룹_3626" data-name="그룹 3626" clip-path="url(#clip-path-6)">
+                  <path id="패스_39607" data-name="패스 39607" d="M167.241,160.072A55.867,55.867,0,1,1,111.373,104.2a55.868,55.868,0,0,1,55.867,55.867" transform="translate(-55.506 -104.205)" fill="#040435"/>
+                </g>
+              </g>
+            </g>
+            <path id="패스_39608" data-name="패스 39608" d="M34.765,56.8V81.108a19.353,19.353,0,0,0,19.351,19.353H75.2A19.352,19.352,0,0,1,94.55,119.812V140.34" transform="translate(26.498 43.291)" fill="none" stroke="#ff142d" stroke-miterlimit="10" stroke-width="1"/>
+            <path id="패스_39609" data-name="패스 39609" d="M165.513,56.8V81.108a19.354,19.354,0,0,1-19.351,19.353H125.081a19.352,19.352,0,0,0-19.353,19.351V140.34" transform="translate(80.587 43.291)" fill="none" stroke="#41b871" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="선_586" data-name="선 586" y2="77.798" transform="translate(153.681 100.088)" fill="none" stroke="#4285f4" stroke-miterlimit="10" stroke-width="0.988"/>
+            <path id="패스_39610" data-name="패스 39610" d="M72.752,107.1a2.9,2.9,0,1,1-2.9-2.9,2.9,2.9,0,0,1,2.9,2.9" transform="translate(51.036 79.426)" fill="#ff142d"/>
+            <g id="그룹_3631" data-name="그룹 3631" transform="translate(150.784 174.05)" style="isolation: isolate">
+              <g id="그룹_3630" data-name="그룹 3630">
+                <g id="그룹_3629" data-name="그룹 3629" clip-path="url(#clip-path-7)">
+                  <path id="패스_39611" data-name="패스 39611" d="M91.359,101.665a2.9,2.9,0,1,1-2.9-2.9,2.9,2.9,0,0,1,2.9,2.9" transform="translate(-85.565 -98.768)" fill="#4285f4"/>
+                </g>
+              </g>
+            </g>
+            <path id="패스_39612" data-name="패스 39612" d="M109.878,107.1a2.9,2.9,0,1,1-2.9-2.9,2.9,2.9,0,0,1,2.9,2.9" transform="translate(79.334 79.426)" fill="#41b871"/>
+            <path id="패스_39613" data-name="패스 39613" d="M6.808.5H.542V143.37H6.808" transform="translate(0.413 0.381)" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1"/>
+            <path id="패스_39614" data-name="패스 39614" d="M6.808,88.2H.542V256.332H6.808" transform="translate(0.413 67.23)" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1.085"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="Different_Data_Sources" data-name="Different Data
+Sources" transform="translate(458 2016)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-73.62" y="0">Different Data</tspan><tspan x="-42.972" y="16">Sources</tspan></text>
+    <text id="Clinical_Data" data-name="Clinical
+Data" transform="translate(529 1994)" fill="#fff" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300" opacity="0.7"><tspan x="-18.816" y="0">Clinical</tspan><tspan x="-12.408" y="16">Data</tspan></text>
+    <text id="Common_Variants" data-name="Common
+Variants" transform="translate(622 1994)" fill="#fff" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300" opacity="0.7"><tspan x="-24.024" y="0">Common</tspan><tspan x="-21.192" y="16">Variants</tspan></text>
+    <text id="Conservation_Data" data-name="Conservation
+Data" transform="translate(714 1994)" fill="#fff" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300" opacity="0.7"><tspan x="-35.196" y="0">Conservation</tspan><tspan x="-12.408" y="16">Data</tspan></text>
+    <text id="ClinVar" transform="translate(529 2034)" fill="#fff" font-size="14" font-family="Pretendard-SemiBold, Pretendard" font-weight="600"><tspan x="-23.1" y="0">ClinVar</tspan></text>
+    <text id="GnomAD" transform="translate(622 2034)" fill="#fff" font-size="14" font-family="Pretendard-SemiBold, Pretendard" font-weight="600"><tspan x="-29.008" y="0">GnomAD</tspan></text>
+    <text id="UniRef" transform="translate(714 2034)" fill="#fff" font-size="14" font-family="Pretendard-SemiBold, Pretendard" font-weight="600"><tspan x="-21.532" y="0">UniRef</tspan></text>
+    <text id="Feature_Extractor" data-name="Feature
+Extractor" transform="translate(623 2182)" fill="#fff" font-size="16" font-family="Pretendard-SemiBold, Pretendard" font-weight="600"><tspan x="-28.064" y="0">Feature</tspan><tspan x="-34.08" y="20">Extractor</tspan></text>
+    <text id="Shared_Layers" data-name="Shared Layers" transform="translate(458 2194)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-75.252" y="0">Shared Layers</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,387 @@
+.ir_title_wrapper {
+    max-width: 1320px;
+    padding: 70px 0 ;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ir_title_wrapper .title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ir_title_wrapper .title span {
+    display: block;
+    font-size: 50px;
+    font-weight: 800;
+    color: #040435;
+    margin-right: 90px;
+}
+
+.ir_title_wrapper .title p {
+    font-size: 28px;
+    font-weight: 500;
+    color: #040435;
+}
+
+.ir_title_wrapper .side_menu_wrapper {
+
+}
+
+.side_menu_wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_menu_wrapper ul li {
+    margin-right: 30px;
+}
+
+.side_menu_wrapper ul li:last-child {
+    margin-right: 0;
+}
+
+.side_menu_wrapper ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8F8F8F;
+}
+
+.side_menu_wrapper ul li a.active{
+    color: #040035;
+}
+
+.ir_title_wrapper img {
+    display: none;
+}
+
+
+
+/*  */
+.recruit_info_wrapper {
+    max-width: 1320px;
+    padding: 60px 0 150px;
+    margin: 0 auto;
+    border-top: 1px solid #040035;
+}
+
+.recruit_info_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.recruit_info_wrapper .title span.p_t {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #2B2E33;
+}
+.recruit_info_wrapper .title span.p_t {
+	display: none;
+}
+
+.recruit_btn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.recruit_btn a {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 40px;
+    background: #040435;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.recruit_btn a:last-child {
+    background: #EDF0F3;
+    color: #040435;
+}
+
+.recruit_info_wrapper .recrut_info {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.recrut_info .recruit_desc {
+    margin-right: 144px;
+}
+
+.recruit_desc .desc_wrapper {
+    margin-bottom: 50px;
+}
+
+.desc_wrapper span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #2B2E33;
+    margin-bottom: 20px;
+}
+
+.desc_wrapper span.span_gray {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A1A7B2;
+}
+
+.desc_wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(43, 46, 51, 0.8);
+}
+
+.recruit_desc .back_btn {
+    margin-top: 100px;
+}
+
+.back_btn a {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.back_btn a span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #002980;
+}
+
+.back_btn a img {
+    margin-right: 10px;
+}
+
+.recruit_addr_wrapper {
+
+}
+
+.recruit_addr_wrapper .recruit_addr {
+    width: 424px;
+    border: 1px solid #E4E6EB;
+    border-radius: 20px;
+    padding: 30px;
+    flex-shrink: 0;
+    margin-bottom: 30px;
+}
+
+.recruit_addr .addr_info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.addr_info span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2B2E33;
+}
+
+.addr_info span:first-child {
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    margin-right: 13px;
+    flex-shrink: 0;
+}
+
+.recruit_addr_wrapper .apply_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.apply_btn a {
+    width: 148px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #040435;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+.recruit_addr_wrapper .apply_btn {
+    display: flex;
+}
+
+.apply_btn.mo {
+    display: none;
+}
+
+
+
+/*  */
+@media (max-width: 480px) {
+    .margin_t{
+        margin-bottom: 15px;
+    }
+    
+
+    .desc_wrapper p{
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+
+    .apply_btn a{
+        display: flex;
+    }
+
+    /*  */
+    .ir_title_wrapper {
+        margin: 0;
+        padding: 20px;
+        background: #EDF0F3;
+        margin-bottom: 60px;
+    }
+
+    .ir_title_wrapper .title {
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .ir_title_wrapper .title span {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .ir_title_wrapper .title p {
+        display: none;
+    }
+
+    .ir_title_wrapper .side_menu_wrapper {
+        display: none;
+    }
+
+    .ir_title_wrapper img {
+        display: block;
+        cursor: pointer;
+    }
+
+    .apply_btn a{
+        border-radius: 40px;
+        height: 48px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+
+    .back_btn a span{
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: bold;
+    }
+
+    .back_btn a img{
+        width: 6px;
+        height: 12px;
+        object-fit: cover;
+    }
+
+    /*  */
+    .recruit_info_wrapper {
+        padding: 0 20px;
+        border: none;
+    }
+	.recruit_info_wrapper .title span.p_t {
+		display: none;
+		font-size: 60px;
+		font-weight: bold;
+		line-height: 70px;
+		color: #2B2E33;
+	}
+	.recruit_info_wrapper .title span.m_t {
+        font-size: 28px;
+        line-height: 40px;
+		font-weight: bold;
+		display: block;
+	}
+    .recruit_info_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .recruit_info_wrapper .title span {
+
+    }
+
+    .recruit_btn {
+        margin-bottom: 60px;
+    }
+
+    .recruit_info_wrapper .recrut_info {
+        flex-direction: column-reverse;
+    }
+
+    .recruit_addr_wrapper {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .recruit_addr_wrapper .recruit_addr {
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-radius: initial;
+    }
+    
+    .recruit_addr .recruit_map {
+        width: 100%;
+    }
+
+    .recruit_addr .recruit_map img {
+        width: 100%;
+    }
+
+
+    .recruit_addr_wrapper .apply_btn {
+        display: none;
+    }
+
+    .recrut_info .recruit_desc {
+        margin: 0;
+    }
+
+
+    .apply_btn.mo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recruit_desc .desc_wrapper {
+        margin-bottom: 30px;
+    }
+
+    .recruit_desc .back_btn {
+        margin: 60px 0;
+    }
+
+}

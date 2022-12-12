@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="530" viewBox="0 0 960 530">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2050" data-name="사각형 2050" width="840" height="338" fill="none" stroke="#8c8c8c" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="TOPK" transform="translate(-360 -1652)">
+    <g id="사각형_161368" data-name="사각형 161368" transform="translate(360 1652)" fill="#fff" stroke="#e4e6eb" stroke-width="1">
+      <rect width="960" height="530" rx="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="959" height="529" rx="19.5" fill="none"/>
+    </g>
+    <g id="그룹_3703" data-name="그룹 3703" transform="translate(450 1751.5)">
+      <g id="그룹_3383" data-name="그룹 3383" transform="translate(0)" clip-path="url(#clip-path)">
+        <path id="패스_38637" data-name="패스 38637" d="M.5,0V337.086H839.25" transform="translate(0.75 0)" fill="none" stroke="#8c8c8c" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <text id="_60_50_40_30_20_10_0" data-name="60
+50
+40
+30
+20
+10
+0" transform="translate(417 1762.5)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="0" y="0">60</tspan><tspan x="0" y="54">50</tspan><tspan x="0" y="108">40</tspan><tspan x="0" y="162">30</tspan><tspan x="0" y="216">20</tspan><tspan x="0" y="270">10</tspan><tspan x="0" y="324">0</tspan></text>
+    <text id="Recall_rate" data-name="Recall rate" transform="translate(404 1948) rotate(-90)" fill="#6c7380" font-size="12" font-family="Pretendard-Medium, Pretendard" font-weight="500"><tspan x="0" y="0">Recall rate</tspan></text>
+    <text id="Top-k" transform="translate(854 2147.5)" fill="#6c7380" font-size="12" font-family="Pretendard-Medium, Pretendard" font-weight="500"><tspan x="0" y="0">Top-k</tspan></text>
+    <text id="_3" data-name="3" transform="translate(870 2120.5)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-3.648" y="0">3</tspan></text>
+    <g id="그룹_173080" data-name="그룹 173080" transform="translate(0 -656)">
+      <path id="사각형_161369" data-name="사각형 161369" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5v9.557a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(480 2721.901)" fill="#cbcbd3"/>
+      <path id="사각형_161370" data-name="사각형 161370" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V36.532a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(505 2707.426)" fill="#a1a7b2"/>
+      <path id="사각형_161371" data-name="사각형 161371" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V82.293a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(530 2661.665)" fill="#ffbfc7"/>
+      <path id="사각형_161372" data-name="사각형 161372" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V78.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(555 2665.5)" fill="#ff6373"/>
+      <path id="사각형_161373" data-name="사각형 161373" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5v94.958a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(580 2636.5)" fill="#ff142d"/>
+      <path id="사각형_161374" data-name="사각형 161374" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V46.057a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(644 2697.901)" fill="#cbcbd3"/>
+      <path id="사각형_161375" data-name="사각형 161375" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V78.532a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(668.969 2665.426)" fill="#a1a7b2"/>
+      <path id="사각형_161376" data-name="사각형 161376" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V143.293a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(693.969 2600.665)" fill="#ffbfc7"/>
+      <path id="사각형_161377" data-name="사각형 161377" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V159.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(718.969 2584.5)" fill="#ff6373"/>
+      <path id="사각형_161378" data-name="사각형 161378" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V185.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(743.969 2558.5)" fill="#ff142d"/>
+      <path id="사각형_161379" data-name="사각형 161379" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V72.057a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(808 2671.901)" fill="#cbcbd3"/>
+      <path id="사각형_161380" data-name="사각형 161380" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V98.532a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(833 2645.426)" fill="#a1a7b2"/>
+      <path id="사각형_161381" data-name="사각형 161381" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V182.293a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(858 2561.665)" fill="#ffbfc7"/>
+      <path id="사각형_161382" data-name="사각형 161382" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V204.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(882 2539.5)" fill="#ff6373"/>
+      <path id="사각형_161383" data-name="사각형 161383" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V249.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(907 2494.5)" fill="#ff142d"/>
+      <path id="사각형_161384" data-name="사각형 161384" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V79.057a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(971 2664.901)" fill="#cbcbd3"/>
+      <path id="사각형_161385" data-name="사각형 161385" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V113.729a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(996 2630.229)" fill="#a1a7b2"/>
+      <path id="사각형_161386" data-name="사각형 161386" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V223.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(1021 2520.5)" fill="#ffbfc7"/>
+      <path id="사각형_161387" data-name="사각형 161387" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V223.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(1046 2520.5)" fill="#ff6373"/>
+      <path id="사각형_161388" data-name="사각형 161388" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V284.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(1071 2459.5)" fill="#ff142d"/>
+      <path id="사각형_161389" data-name="사각형 161389" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V89.792a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(1135 2654.166)" fill="#cbcbd3"/>
+      <path id="사각형_161390" data-name="사각형 161390" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V143.532a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(1159.969 2600.426)" fill="#a1a7b2"/>
+      <path id="사각형_161391" data-name="사각형 161391" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V242.293a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(1184.969 2501.665)" fill="#ffbfc7"/>
+      <path id="사각형_161392" data-name="사각형 161392" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V246.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(1209.969 2497.5)" fill="#ff6373"/>
+      <path id="사각형_161393" data-name="사각형 161393" d="M12.5,0h0A12.5,12.5,0,0,1,25,12.5V310.458a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.5A12.5,12.5,0,0,1,12.5,0Z" transform="translate(1234.969 2433.5)" fill="#ff142d"/>
+      <g id="그룹_3704" data-name="그룹 3704" transform="translate(0 -1306)">
+        <text id="_3.8" data-name="3.8" transform="translate(492.5 4041.901)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-7.015" y="0">3.8</tspan></text>
+        <text id="_6.5" data-name="6.5" transform="translate(517.5 4032.426)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-6.935" y="0">6.5</tspan></text>
+        <text id="_14.5" data-name="14.5" transform="translate(542.5 3986.665)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-9.085" y="0">14.5</tspan></text>
+        <text id="_14" data-name="14" transform="translate(567.5 3990.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-5.15" y="0">14</tspan></text>
+        <text id="_18.8" data-name="18.8" transform="translate(592.5 3961.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-9.085" y="0">18.8</tspan></text>
+        <text id="_8.1" data-name="8.1" transform="translate(656.5 4022.901)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-5.805" y="0">8.1</tspan></text>
+        <text id="_14-2" data-name="14" transform="translate(681.469 3990.426)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-5.15" y="0">14</tspan></text>
+        <text id="_25.3" data-name="25.3" transform="translate(706.469 3925.665)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-9.85" y="0">25.3</tspan></text>
+        <text id="_28" data-name="28" transform="translate(731.469 3909.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-5.94" y="0">28</tspan></text>
+        <text id="_32.8" data-name="32.8" transform="translate(756.469 3883.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-10.08" y="0">32.8</tspan></text>
+        <text id="_12.9" data-name="12.9" transform="translate(820.5 3996.901)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-9.255" y="0">12.9</tspan></text>
+        <text id="_17.2" data-name="17.2" transform="translate(845.5 3970.426)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-8.39" y="0">17.2</tspan></text>
+        <text id="_32.3" data-name="32.3" transform="translate(870.5 3886.665)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-10.11" y="0">32.3</tspan></text>
+        <text id="_36" data-name="36" transform="translate(894.5 3864.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-6.04" y="0">36</tspan></text>
+        <text id="_44.1" data-name="44.1" transform="translate(919.5 3819.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-8.845" y="0">44.1</tspan></text>
+        <text id="_14-3" data-name="14" transform="translate(983.5 3990)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-5.15" y="0">14</tspan></text>
+        <text id="_19.9" data-name="19.9" transform="translate(1008.5 3955.229)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-9.17" y="0">19.9</tspan></text>
+        <text id="_39" data-name="39" transform="translate(1033.5 3845.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-6.04" y="0">39</tspan></text>
+        <text id="_39.2" data-name="39.2" transform="translate(1058.5 3845.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-10.065" y="0">39.2</tspan></text>
+        <text id="_50.5" data-name="50.5" transform="translate(1083.5 3784.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-9.795" y="0">50.5</tspan></text>
+        <text id="_15.6" data-name="15.6" transform="translate(1147.5 3979.166)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-8.975" y="0">15.6</tspan></text>
+        <text id="_25.3-2" data-name="25.3" transform="translate(1172.469 3925.426)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-9.85" y="0">25.3</tspan></text>
+        <text id="_43" data-name="43" transform="translate(1197.469 3826.665)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-6.08" y="0">43</tspan></text>
+        <text id="_43.5" data-name="43.5" transform="translate(1222.469 3822.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-10.055" y="0">43.5</tspan></text>
+        <text id="_54.8" data-name="54.8" transform="translate(1247.469 3758.5)" fill="#fff" font-size="10" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-9.895" y="0">54.8</tspan></text>
+      </g>
+    </g>
+    <text id="_4" data-name="4" transform="translate(1033.5 2120.5)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-3.648" y="0">4</tspan></text>
+    <text id="_5" data-name="5" transform="translate(1197.484 2120.5)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-3.504" y="0">5</tspan></text>
+    <text id="_1" data-name="1" transform="translate(545.5 2120.5)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-2.532" y="0">1</tspan></text>
+    <text id="_2" data-name="2" transform="translate(702.484 2120.5)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="-3.528" y="0">2</tspan></text>
+    <g id="그룹_3705" data-name="그룹 3705" transform="translate(-5 -1962)">
+      <text id="PrimateAI_REVEL_3CnetV0_3CnetV1_3CnetV2" data-name="PrimateAI
+REVEL
+3CnetV0
+3CnetV1
+3CnetV2" transform="translate(484 3724.5)" fill="#6c7380" font-size="12" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="0" y="0">PrimateAI</tspan><tspan x="0" y="20">REVEL</tspan><tspan x="0" y="40">3CnetV0</tspan><tspan x="0" y="60">3CnetV1</tspan><tspan x="0" y="80">3CnetV2</tspan></text>
+      <circle id="타원_221" data-name="타원 221" cx="6" cy="6" r="6" transform="translate(466 3714)" fill="#cbcbd3"/>
+      <circle id="타원_222" data-name="타원 222" cx="6" cy="6" r="6" transform="translate(466 3734)" fill="#a1a7b2"/>
+      <circle id="타원_223" data-name="타원 223" cx="6" cy="6" r="6" transform="translate(466 3754)" fill="#ffbfc7"/>
+      <circle id="타원_224" data-name="타원 224" cx="6" cy="6" r="6" transform="translate(466 3774)" fill="#ff6373"/>
+      <circle id="타원_225" data-name="타원 225" cx="6" cy="6" r="6" transform="translate(466 3794)" fill="#ff142d"/>
+    </g>
+    <text id="Top-k_recall_for_disease-causing_variants" data-name="Top-k recall for disease-causing variants" transform="translate(667 1719)" fill="#2b2e33" font-size="18" font-family="Pretendard-Bold, Pretendard" font-weight="700"><tspan x="0" y="0">Top-k recall for disease-causing variants</tspan></text>
+  </g>
+</svg>

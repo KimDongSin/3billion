@@ -1,0 +1,400 @@
+.ir_title_wrapper {
+    max-width: 1320px;
+    padding: 70px 0;
+    margin: 100px auto 0;
+}
+
+.ir_title_wrapper .title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ir_title_wrapper .title span {
+    display: block;
+    font-size: 50px;
+    font-weight: 800;
+    color: #040435;
+    margin-right: 90px;
+}
+
+.ir_title_wrapper .title p {
+
+    font-size: 28px;
+    font-weight: 500;
+    color: #040435;
+}
+
+
+
+
+/*  */
+.invest_wrapper {
+    margin: 0 auto 150px;
+    background: #F0F2F5;
+    padding: 100px 0;
+}
+
+.invest_wrapper .invest_bg {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.invest_wrapper .title {
+    margin-bottom: 50px;
+}
+
+.invest_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    color: #2B2E33;
+}
+
+.invest_wrapper .invest_list {
+
+}
+
+.invest_list ul {
+    width: 100%;
+}
+
+.invest_list ul li {
+    width: 100%;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.invest_list ul li.on {
+    border: 1px solid #040435;
+}
+
+.invest_list ul li .list_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invest_list ul li.on .list_title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.list__container .list_title span:last-child{
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-right: 35px;
+    color: #6C7380;
+}
+
+.invest_list.on.list__container{
+    margin-bottom: 0;
+}
+
+.list__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list_title span {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2B2E33;
+}
+
+.list_title .list_date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_date span {
+    margin-right: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #6C7380;
+}
+
+.list_date img {
+    cursor: pointer;
+}
+
+li .list_date img {
+    content: url('../../common/images/company/invest_open.png');
+}
+
+li.on .list_date img {
+    content: url('../../common/images/company/invest_close.png');
+}
+
+
+.invest_list ul li.on .invet_info {
+    display: block;
+}
+
+.invest_list ul li .invet_info {
+    display: none;
+}
+
+.invet_info .invest_img > img{
+    margin: 30px 0;
+}
+
+.invet_info .invest_download {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.invest_download img {
+    margin-right: 10px;
+}
+
+.invest_download a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2B2E33;
+}
+
+
+.invest_list ul li .list_title {
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.invest_inquire_wrapper {
+    max-width: 960px;
+    margin: 0 auto 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.invest_inquire_wrapper .title {
+    
+}
+
+.invest_inquire_wrapper .title span {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #2B2E33;
+}
+
+.invest_inquire_wrapper .invest_inquire {
+    width: 468px;
+    height: 150px;
+    border-radius: 30px;
+    background: #F0F2F5;
+    padding: 25px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invest_inquire span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2B2E33;
+    margin-bottom: 20px;
+}
+
+.invest_inquire span:last-child {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2B2E33;
+    margin-bottom: 0;
+}
+
+
+
+/*  */
+@media (max-width: 480px) {
+
+    /*  */
+    .ir_title_wrapper {
+        margin: 0;
+        padding: 60px 20px ;
+    }
+
+    .ir_title_wrapper .title {
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .ir_title_wrapper .title span {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .ir_title_wrapper .title p {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .invest_list ul li.on .list_title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /*  */
+    .invest_wrapper {
+        padding: 60px 0;
+        margin-bottom: 60px;
+    }
+
+    .invest_wrapper .invest_bg {
+        padding: 0 24px;
+        margin-bottom: 0px;
+    }
+
+    .invest_list ul li {
+        padding: 25px 20px;
+        margin-bottom: 10px;
+    }
+
+    .invest_list ul li .list_title {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .invest_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .invest_wrapper .title span {
+        font-size: 24px;
+    }
+
+    .list_title > span {
+        font-size: 16px;
+        line-height: 25px;
+        margin-right: 30px;
+    }
+
+    .list_title .list_date {
+
+    }
+    
+    .list_title .list_date span {
+        position: absolute;
+        left: 0;
+        top: 50px;
+        font-size: 12px;
+    }
+
+    .invet_info .invest_img img {
+        content: url('../../common/images/company/m_invest_img.png');
+        width: 100%;
+    }
+
+    .invest_download a {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+
+
+    /*  */
+    .invest_inquire_wrapper {
+        padding: 0 20px;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .invest_inquire_wrapper .title {
+        margin-bottom: 30px;
+    }
+
+    .invest_inquire_wrapper .title span {
+        font-size: 24px;
+    }
+
+    .invest_inquire_wrapper .title span br {
+        display: none;
+    }
+
+    .invest_inquire_wrapper .invest_inquire {
+        width: 100%;
+        height: 125px;
+        border-radius: 15px;
+    }
+
+    .invest_inquire > a > img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .invest_inquire span {
+        font-size: 22px;
+    }
+
+    .invest_inquire span:last-child {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

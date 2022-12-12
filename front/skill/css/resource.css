@@ -1,0 +1,301 @@
+* {
+    font-family: 'Pretendard';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+
+.main__bg {
+    background-color: #ffffff;
+    height: 280px;
+}
+
+.tool__card {
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+}
+
+.main__bg__gle {
+    align-items: center;
+}
+
+.main__bg__gle>h1 {
+    margin-right: 47px;
+}
+
+.btn__box {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 150px;
+}
+
+.questions__wrap {}
+
+.questions__wrap {
+    margin-bottom: 150px;
+}
+
+.questions__wrap>h1 {
+    width: 960px;
+    margin: 150px auto 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.questions__wrap__box {
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(190, 194, 204, 0.5);
+}
+
+.datail__text {
+    padding-left: 52px;
+    padding-bottom: 50px;
+    width: 860px;
+}
+
+.datail__text>p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.questions__wrap__datail .questions__wrap__box>li {
+    border-bottom: none;
+    margin-bottom: 18px;
+}
+
+.datail__text>p:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+/*  */
+
+.resource {
+    max-width: 960px;
+    margin: 110px auto 0;
+    width: 100%;
+}
+
+.resource>ul>li:first-child {
+    margin-top: 0;
+}
+
+.resource>ul>li {
+    position: relative;
+    height: 90px;
+    line-height: 90px;
+    border: 1px solid #E4E6EB;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.resource>ul>li .more {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../../common/images/skill/ico_plus.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.resource>ul>li.on .more {
+    background-image: url('../../common/images/skill/ico_minus.png');
+}
+
+.resource>ul>li ul {
+    padding-bottom: 20px;
+}
+
+.resource>ul>li li {
+    font-size: 0;
+    border-top: 1px solid #E4E6EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.resource>ul>li li:first-child {
+    border-top: 0px none;
+}
+
+.resource>ul>li.on {
+    height: auto;
+    overflow: auto;
+    border: 1px solid #040435;
+}
+
+.resource>ul>li li .title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    display: inline-block;
+    color: #2B2E33;
+}
+
+.data__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.resource>ul>li li .date {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-right: 96px;
+    color: #969BA3;
+}
+
+
+.resource>ul>li li a {
+    width: 40px;
+    height: 20px;
+    background-image: url('../../common/images/skill/ico_download.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.client__btn{
+    padding: 0 67px;
+}
+
+@media (max-width: 480px) {
+    .main__bg{
+        height: 100%;
+    }
+
+    .client__btn{
+        padding: 0 30px;
+    }
+
+    .data__wrap {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .resource>ul>li li .date{
+        margin-right: 0;
+        font-weight: 400;
+        
+    }
+
+    .resource>ul>li li .title{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        color: rgba(43, 46, 51, 0.8);
+    }
+
+    .resource>ul>li li a{
+        width: 35px;
+    }
+
+    .resource>ul>li .more{
+        width: 35px;
+        height: 35px;
+        background-size: 35px;
+    }
+
+    .resource>ul>li li {
+        padding: 20px 0;
+        padding-right: 7px;
+    }
+
+    .questions__wrap {
+        margin-bottom: 60px;
+    }
+
+    .btn__box {
+        margin: 30px 0 60px;
+    }
+
+    .btn__type1 {
+        margin-top: 30px;
+    }
+
+
+    .inquiry__wrap__box {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .inquiry__input__wrap {
+        width: 100%;
+    }
+
+    .inquiry__wrap {
+        height: 100%;
+        margin-top: 60px;
+    }
+
+    .main__wrapper {
+        /* border-bottom: none; */
+    }
+
+    .main__bg__gle {
+        align-items: flex-start;
+        margin-bottom: 60px;
+    }
+
+    .client__menu__wrap>p {
+        margin-top: 60px;
+    }
+
+    .questions__wrap>h1 {
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    .datail__text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .questions__wrap__datail .questions__wrap__box>li {
+        margin-bottom: 38px;
+    }
+
+    .datail__text {
+        padding-bottom: 40px;
+    }
+
+    /*  */
+
+    .resource>ul>li {
+        border-radius: 15px;
+        padding: 0 25px 0 20px;
+        margin-top: 10px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .resource {
+        width: 90%;
+        margin: 0px auto 0;
+    }
+
+
+}

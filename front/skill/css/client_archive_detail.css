@@ -1,0 +1,235 @@
+* {
+    font-family: 'Pretendard';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+
+.main__bg {
+    background-color: #ffffff;
+    height: 280px;
+}
+
+.tool__card{
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+}
+
+.main__bg__gle{
+    align-items: center;
+}
+
+.main__bg__gle>h1{
+    margin-right: 47px;
+}
+
+.btn__box{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 150px;
+}
+
+.questions__wrap{
+
+}
+
+.questions__wrap{
+    margin-bottom: 150px;
+}
+
+.questions__wrap > h1{
+    width: 960px;
+    margin: 150px auto 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.questions__wrap__box{
+    margin-top: 0px;
+    /*border-bottom: 1px solid rgb(190, 194, 204, 0.5);*/
+}
+
+.datail__text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 860px;
+}
+
+.datail__text > p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.questions__wrap__datail .questions__wrap__box > li{
+    border-bottom: none;
+    margin-bottom: 18px;
+}
+
+.datail__text > p:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.grey__one{
+    display: none;
+}
+
+.questions__wrap__box > li{
+    height: 90px;
+}
+
+.client__wrap{
+    margin: initial;
+}
+
+.questions__wrap__datail .questions__wrap__box > li{
+    margin: 0;
+}
+
+.datail__list__wrap{
+    border-top: 1px solid rgb(190, 194, 204, 0.5);
+    padding-top: 30px;
+    margin-bottom: 170px;
+}
+
+.datail__list__wrap > a{
+    display: inline-flex;
+    align-items: center;
+}
+
+.datail__list__wrap > a > span{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #002980;
+}
+
+.questions__li > p,
+.questions__li > span{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 70px;
+}
+.questions__wrap__datail {
+	padding-top: 3rem;
+}
+.questions__wrap__datail .questions__li {
+	padding: 30px 0;
+}
+.menu__card {
+	margin-top: 20px;
+}
+@media (max-width: 480px) {
+    .datail__list__wrap > a > img{
+        content: url('../../common/images/skill/m_qa__left__arrpw.png');
+    }
+
+    .questions__li > p, .questions__li > span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .questions__wrap{
+        margin-bottom: 60px;
+    }
+    
+    .datail__text > p{
+        line-height: 27px;
+    }
+
+    .btn__box{
+        margin: 30px 0 60px;
+    }
+
+    .btn__type1{
+        margin-top: 30px;
+    }
+ 
+
+    .inquiry__wrap__box{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .inquiry__input__wrap{
+        width: 100%;
+    }
+
+    .inquiry__wrap{
+        height: 100%;
+        margin-top: 60px;
+    }
+
+    .main__wrapper{
+        /* border-bottom: none; */
+    }
+
+    .questions__wrap__datail .questions__li{
+        padding: 30px 0 0px;
+    }
+    
+    .main__bg__gle{
+        align-items: flex-start;
+        margin-bottom: 60px;
+    }
+
+    .client__menu__wrap > p{
+        margin-top: 60px;
+    }
+
+    .questions__wrap > h1{
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    .datail__text{
+        width: 100%;
+        padding: 0;
+    }
+
+    .questions__wrap__datail .questions__wrap__box > li{
+        margin-bottom: 0;
+    }
+
+    .questions__wrap__datail{
+        padding-top: 0;
+    }
+
+    .datail__text{
+        padding-bottom: 40px;
+    }
+
+    .main__bg{
+        height: auto;
+    }
+
+    .questions__wrap__box > li{
+        height: auto;
+    }
+
+    .datail__text{
+        margin-top: 50px;
+    }
+
+    .datail__list__wrap{
+        margin-bottom: 60px;
+    }
+
+    .datail__list__wrap > a > span{
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: bold;
+    }
+}

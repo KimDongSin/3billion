@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="그룹_173181" data-name="그룹 173181" transform="translate(14217.9 14889.006)">
+    <g id="타원_231" data-name="타원 231" transform="translate(-14217.9 -14889.006)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="17.5" cy="17.5" r="17.5" stroke="none"/>
+      <circle cx="17.5" cy="17.5" r="17" fill="none"/>
+    </g>
+    <path id="facebook" d="M15.963,2H13.519A4.074,4.074,0,0,0,9.444,6.074V8.519H7v3.259H9.444V18.3H12.7V11.778h2.444l.815-3.259H12.7V6.074a.815.815,0,0,1,.815-.815h2.444Z" transform="translate(-14211.176 -14881.25)" fill="#fff"/>
+  </g>
+</svg>

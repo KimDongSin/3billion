@@ -1,0 +1,102 @@
+<div class="footer_wrapper">
+    <div class="footer_top_wrapper">
+        <div class="footer_menu_wrapper">
+            <ul class="footer_menu">
+                <li>
+                    <a href="https://shkim.gabia.io/front/skill/index.html">기술</a>
+                    <img src="../common/images/common/footer_arrow.svg" alt="" class="">
+                    <ul class="footer_sub">
+                        <li>
+                            <a href="https://shkim.gabia.io/front/skill/EVIDENCE.html">EVIDENCE</a>
+                        </li>
+                        <li>
+                            <a href="https://shkim.gabia.io/front/skill/3Cnet.html">3Cnet</a>
+                        </li>
+                        <li>
+                            <a href="https://shkim.gabia.io/front/skill/reanalysis.html">재분석</a>
+                        </li>
+                        <li>
+                            <a href="https://shkim.gabia.io/front/skill/development.html">신약 개발 기술</a>
+                        </li>
+                        <li>
+                            <a href="https://shkim.gabia.io/front/skill/paper.html">논문</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://shkim.gabia.io/front/skill/resource.html">리소스</a>
+                </li>
+                <li>
+                    <a href="https://shkim.gabia.io/front/skill/tool.html">도구</a>
+                    <img src="../common/images/common/footer_arrow.svg" alt="" class="">
+                    <ul class="footer_sub">
+                        <li>
+                            <a href="#none">Gene browser</a>
+                        </li>
+                        <li>
+                            <a href="#none">Symptom search</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">제휴문의</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer_newsletter">
+            <span>쓰리빌리언의 다양한 소식을 뉴스레터로 받아보세요.</span>
+
+            <div class="newsletter_input">
+                <input type="text" placeholder="e-mail">
+                <button>구독신청</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        <div class="footer_logo">
+            <a href="https://shkim.gabia.io/front/main/index.html">
+                <img src="../common/images/common/f_logo.png" alt="">
+            </a>
+        </div>
+
+        <div class="footer_info">
+            <span>(주)쓰리빌리언</span>
+            <ul>
+                <li class="info_item">서울특별시 강남구 테헤란로 416 14층</li>
+                <li class="info_item">+82 2 1234 5678</li>
+                <li class="info_item">
+                    <ul class="info_link_wrapper">
+                        <li><a href="#none">웹사이트 이용약관</a></li>
+                        <li><a href="https://shkim.gabia.io/front/skill/terms.html">개인정보보호방침</a></li>
+                        <li><a href="#none">서비스 약관</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer_icon">
+            <a href="#none"><img src="../common/images/common/sns01.png" alt=""></a>
+            <a href="#none"><img src="../common/images/common/sns02.png" alt=""></a>
+            <a href="#none"><img src="../common/images/common/sns03.png" alt=""></a>
+            <a href="#none"><img src="../common/images/common/sns04.png" alt=""></a>
+            <a href="#none"><img src="../common/images/common/sns05.png" alt=""></a>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            $('.footer_menu img').on('click', function () {
+                if ($(this).hasClass('on')) {
+                    $(this).removeClass('on');
+                    $(this).closest('li').find('.footer_sub').hide();
+                    // $(this).closest('li').find('img').css({'transform ': 'rotateX(180deg)'});
+                } else {
+                    $(this).addClass('on');
+                    $(this).closest('li').find('.footer_sub').show();
+                }
+            });
+        })();
+    </script>
+</div>
