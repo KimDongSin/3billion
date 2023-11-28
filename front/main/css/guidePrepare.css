@@ -259,7 +259,7 @@
 .incongruity_card ul li span {
     display: block;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 30px;
     color: #2B2E33;
     margin-bottom: 20px;
@@ -355,7 +355,7 @@
     display: block;
     width: 100%;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 30px;
     color: #2B2E33;
     margin-bottom: 20px;
@@ -709,7 +709,6 @@
 
     .guide_require_wrapper .guide_card{
         padding: 20px 30px;
-        width: 290px !important;
     }
 
     /*  */

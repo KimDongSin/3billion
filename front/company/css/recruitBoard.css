@@ -85,8 +85,8 @@
 /*  */
 .recruit_board_wrapper {
     max-width: 1320px;
-    padding:  0 ;
-    margin: 110px auto;
+    padding: 70px 0 ;
+    margin: 100px auto;
 }
 
 .recruit_board_wrapper .title {
@@ -204,8 +204,8 @@
 
 .inquire_icon_wrapper {
     position: fixed;
-    bottom: 180px;
-    right: 180px;
+    bottom: 0;
+    right: 0;
     z-index: 100;
     cursor: pointer;
 }
@@ -537,8 +537,6 @@
     .recruit_search .input_wrapper {
         height: 60px;
         padding: 0px 20px;
-		width: 100%;
-		margin-right: 0;
     }
 
     .recruit_search .select_wrapper {

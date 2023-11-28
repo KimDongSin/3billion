@@ -103,7 +103,7 @@
     width: 230px;
     height: 2px;
     right: -200px;
-    background: #070764;
+    background: #FF142D80;
     top: 40px;
 }
 
@@ -249,9 +249,6 @@
     display: flex;
     justify-content: left;
     align-items: flex-start;
-}
-
-.willbe_info_wrapper .content_info:first-child{
     margin-bottom: 30px;
 }
 
@@ -457,10 +454,8 @@
     }
 
     .content_body span {
-		font-size: 18px;
-		font-weight: 400;
-		line-height: 30px;
-		color: #2B2E33;
+        font-size: 22px;
+        line-height: 30px;
     }
 
 
@@ -496,14 +491,6 @@
         width: 2px;
         left: 25px;
         bottom: 0;
-    }
-
-    .identify_swiper .identify_card {
-        width: 290px;
-    }
-
-    .identify_swiper .identify_card > img{
-        width: 100%;
     }
 
     .research_process ul li img {

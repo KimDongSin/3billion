@@ -2,10 +2,6 @@
     font-family: 'Pretendard';
 }
 
-body{
-    overflow-x: hidden;
-}
-
 .container {
     display: flex;
     justify-content: center;

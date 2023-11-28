@@ -423,7 +423,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    background-position: center;
 }
 
 .card__img__one {
@@ -836,6 +835,11 @@
     color: #CCCCCC;
 }
 
+ /*  */
+ .mo_inquire_wrapper {
+    display: none;
+}
+
 
 
 
@@ -1153,4 +1157,13 @@
 
     }
 
+
+    /*  */
+    .mo_inquire_wrapper {
+        display: block;
+    }
+    
+    .inquire_icon_wrapper.on>img {
+        display: none;
+    }
 }

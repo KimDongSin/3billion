@@ -1,8 +1,8 @@
 
 (function () {
     var new_swiper = new Swiper(".blog_swiper", {
-        slidesPerView: 1.3,
-        spaceBetween: 60,
+        slidesPerView: 1,
+        spaceBetween: 1,
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
@@ -14,20 +14,10 @@
                 spaceBetween: 30,
             },
 
-            375: {
-                slidesPerView: 1.3,  //브라우저가 1024보다 클 때
-                spaceBetween: 80,
-            },
 
-
-            360: {
-                slidesPerView: 1.3,  //브라우저가 1024보다 클 때
-                spaceBetween: 90,
-            },
-
-            320: {
-                slidesPerView: 1.2,  //브라우저가 1024보다 클 때
-                spaceBetween: 100,
+            420: {
+                slidesPerView: 1.4,  //브라우저가 420보다 클 때
+                spaceBetween: 40,
             },
         },
     });

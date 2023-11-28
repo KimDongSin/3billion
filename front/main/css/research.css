@@ -326,19 +326,10 @@ footer {
 }
 
 .icon_wrapper ul li {
-	width: 110px;
-	height: 110px;
-	border-radius:15px;
-	background-color: #F0F2F5;
     margin-right: 11px;
     margin-bottom: 10px;
 }
 
-.icon_wrapper ul li img {
-	display: block;
-	width: 70%;
-	margin: 16.5px auto;
-}
 
 
 
@@ -450,14 +441,16 @@ footer {
 
 }
 
-
+.m_swiper__wrap{
+    display: none;
+}
 
 
 /*  */
 @media (max-width: 480px) {
 
     .banner_wrapper {
-        background: url('../../common/images/main/m_research_banner.png') no-repeat;
+        background: url('../../common/images/main/research_banner_img.png') no-repeat;
         background-size: 100%;
         margin-bottom: 60px;
         padding: 60px 0 0 20px;
@@ -475,14 +468,22 @@ footer {
     }
 
 
+    .identify_swiper{
+        display: none;
+    }
+
     .banner_wrapper a {
-        width: 268px;
+        width: 176px;
         height: 48px;
         font-size: 16px;
         font-weight: bold;
     }
 
 
+    .m_swiper__wrap{
+        display: flex;
+        flex-direction: column;
+    }
 
     /*  */
     .research_process_wrapper .title {
@@ -623,6 +624,7 @@ footer {
     .participate_card {
         padding: 30px;
         width: 350px;
+        margin-bottom: 10px;
     }
 
     .participate_card img {
@@ -653,9 +655,12 @@ footer {
         line-height: 32px;
     }
 
+    .icon_wrapper ul {
+        justify-content: space-between;
+    }
+
     .icon_wrapper ul li {
-        width: 32%;
-		margin-right: 2%;
+        margin-right: 0;
     }
 
     .icon_wrapper ul li:nth-child(3n) {

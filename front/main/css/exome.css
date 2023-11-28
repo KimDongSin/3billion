@@ -438,15 +438,9 @@
     .banner_wrapper .desc {
         font-size: 24px;
         font-weight: 400;
-     
         line-height: 32px;
     }
-    
 
-    .identify_swiper .identify_card,
-    .identify_swiper .identify_card > img{
-        width: 100%;
-    }
 
     /*  */
     .exome_spec_wrapper {

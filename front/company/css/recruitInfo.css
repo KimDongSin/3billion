@@ -73,14 +73,11 @@
     margin-bottom: 50px;
 }
 
-.recruit_info_wrapper .title span.p_t {
+.recruit_info_wrapper .title span {
     font-size: 60px;
     font-weight: bold;
     line-height: 70px;
     color: #2B2E33;
-}
-.recruit_info_wrapper .title span.p_t {
-	display: none;
 }
 
 .recruit_btn {
@@ -310,25 +307,14 @@
         padding: 0 20px;
         border: none;
     }
-	.recruit_info_wrapper .title span.p_t {
-		display: none;
-		font-size: 60px;
-		font-weight: bold;
-		line-height: 70px;
-		color: #2B2E33;
-	}
-	.recruit_info_wrapper .title span.m_t {
-        font-size: 28px;
-        line-height: 40px;
-		font-weight: bold;
-		display: block;
-	}
+
     .recruit_info_wrapper .title {
         margin-bottom: 30px;
     }
 
     .recruit_info_wrapper .title span {
-
+        font-size: 30px;
+        line-height: 40px;
     }
 
     .recruit_btn {

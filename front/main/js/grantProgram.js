@@ -1,8 +1,8 @@
 
 (function () {
     var new_swiper = new Swiper(".identify_swiper", {
-        slidesPerView: 1.3,
-        spaceBetween: 40,
+        slidesPerView: 1,
+        spaceBetween: 1,
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
@@ -15,9 +15,9 @@
             },
 
 
-            320: {
-                slidesPerView: 1.3,  //브라우저가 1024보다 클 때
-                spaceBetween: 10,
+            420: {
+                slidesPerView: 1.3,  //브라우저가 420보다 클 때
+                spaceBetween: 20,
             },
         },
     });

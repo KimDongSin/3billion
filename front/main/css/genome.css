@@ -474,11 +474,6 @@
         margin-bottom: 30px;
     }
 
-    .identify_swiper .identify_card,
-    .identify_swiper .identify_card > img{
-        width: 100%;
-    }
-
     .spec_list_wrapper .list_title span {
         font-size: 22px;
         font-weight: 600;

@@ -1,6 +1,4 @@
- @import url('/lab/css/common.css');
- 
- /* COMMON */
+/* COMMON */
 * {
     font-family: "Pretendard";
 
@@ -55,8 +53,6 @@ header {
     display: flex;
     justify-content: center;
     position: relative;
-	transform: translateX(0px) translateY(0);
-	z-index: 999;
 }
 
 .header_wrapper {
@@ -938,10 +934,8 @@ footer {
     }
 
     .footer_wrapper {
-        width: 90%;
         margin-top: 60px;
         padding: 0 20px 100px;
-        margin: 40px auto 0 !important;
     }
     .footer_wrapper .footer_top_wrapper {
         padding-bottom: 60px;
@@ -1042,7 +1036,6 @@ footer {
         margin-top: 60px;
         margin-bottom: 0;
         padding-bottom: 72px;
-        padding: 40px 0 82px !important;
     }
 
     .footer_newsletter .newsletter_input{

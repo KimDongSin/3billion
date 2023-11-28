@@ -215,7 +215,6 @@
 }
 
 .btn__type1{
-	display: block;
     border-radius: 40px;
     background-color: #040435;
     height: 40px;
@@ -224,8 +223,6 @@
     font-size: 14px;
     border: none;
     margin-top: 40px;
-	width: 104px;
-	line-height: 40px;
 }
 
 @media (max-width: 480px) {

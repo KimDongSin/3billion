@@ -21,7 +21,7 @@
     // 스크롤
     $(window).scroll(function(){
         var scrT = $(window).scrollTop();
-        if (scrT >= 0) {
+        if (scrT >= 500) {
             $('header').css({
                 'position': 'fixed',
                 'top': '0',
@@ -30,12 +30,36 @@
                 'width' : '100%',
                 'z-index' : '1000'
             });
+
+            
+            $('.ir_title_wrapper').css({
+                'position': 'fixed',
+                'top': '80px',
+                'z-index': '1000',
+                'width': '100%'
+            });
+
+            $('.container').css({
+                'padding-top': '170px'
+            })
         }else {
             if ($('.sitemap_wrappper_m').css('display') != 'block') {
                 $('header').css({
                     'position': 'relative',
                     'top': '0'
                 });
+
+                
+                $('.ir_title_wrapper').css({
+                    'position': 'initial',
+                    'top': 'initial',
+                    'z-index': 'initial',
+                    'width': 'initial'
+                })
+
+                $('.container').css({
+                    'padding-top': '0'
+                })
                 
             }else {
                 $('header').css({
@@ -46,6 +70,18 @@
                     'width' : '100%',
                     'z-index' : '1000'
                 });
+
+                
+                $('.ir_title_wrapper').css({
+                    'position': 'fixed',
+                    'top': '80px',
+                    'z-index': '1000',
+                    'width': '100%'
+                })
+
+                $('.container').css({
+                    'padding-top': '170px'
+                })
             }
         }
     });

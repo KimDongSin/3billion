@@ -15,7 +15,7 @@
             },
 
 
-            320: {
+            420: {
                 slidesPerView: 1.3,  //브라우저가 420보다 클 때
                 spaceBetween: 20,
             },
